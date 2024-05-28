@@ -1,0 +1,172 @@
+body{
+    font-family: sans-serif 'poopins';
+}
+nav{
+    background-color: antiquewhite;
+    height: 500px;
+    
+}
+.signin{
+    margin-top: 40px;
+}
+.container h5{
+    font-size: 12px;
+    font-weight: 500px;
+}
+.container p:hover{
+    color: #f0951d;
+}
+
+.container-box{
+    margin-top: 100px;
+    font-weight: 500;
+}
+.container-box h1{  
+    font-size: 3rem;  
+}
+.container-box span{
+    color: #f0951d;
+}
+.container-box input{
+ 
+    height: 50px;
+    font-size: 1rem;
+    border:none ;
+} 
+.container-box button{
+    height: 50px;
+    width: 70px;
+}
+.SignIn{
+    display: none;
+}
+.list{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 0.1fr));
+    grid-gap: 5px;
+}
+.list p{
+    margin: 20px;
+}
+.boximage{ 
+    margin: 25px;
+    display: flex;
+}
+.image:hover{
+    background-color: #f0951d;
+    color: white;
+    border-radius: 10px;
+}
+.section2{
+    display: grid;
+}
+.card{
+    justify-content: center;
+    text-align: center;
+}
+.card span {
+    color: #f0951d;
+}
+.box-card a{
+    text-decoration: none;
+}
+.box-card ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-card ul li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(219, 219, 231);
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+}
+.box-card h3{
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-card p{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.star{
+    margin-right: -50px;
+}
+.star p{
+    color: rgb(157, 134, 180);
+}
+.box-card1{
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-left:70px ;
+    
+}
+ li{
+     list-style: none;
+    }
+
+.enroll{
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+}
+.Cards{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;  
+    height: 450px;
+    display: flex;
+}
+.ImageSide{
+    justify-content: center;
+    position: relative;
+    background: #fff;
+    margin: 20px 0;
+    align-items: center;
+    padding: 30px; }
+  .pre, next{
+    border: none;
+    background-color: #fff; }
+
+  .footers{
+    display: flex;}
+    @media (max-width:830px){
+        .footers{
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 18px;
+                    margin-left: 5px;
+        }
+
+        .video{
+            width: 300px;
+            height: 200px;
+        }
+        .SignIn{
+            display: block;
+            margin-top: 20px;
+            padding: 4px;
+            background-color: #f0951d;
+            font-size: 10px;
+            color: #fff;
+        }
+  .signin{
+    display: none;
+  }
+
+
+    }
